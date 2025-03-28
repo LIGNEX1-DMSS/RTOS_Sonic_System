@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\serialdatareceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\serialdatareceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\arm64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\model\\receivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\model\\receivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|c:\\mac\\home\\documents\\dmss_project\\dmss_gui\\dmss_gui\\model\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|solutionrelative:dmss_gui\\model\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\arm64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\arm64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\arm64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\arm64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAkTAABoZmZmZmYewBETAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-28T03:36:05.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DMSS_GUI\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
+              "RelativeToolTip": "DMSS_GUI\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T00:58:21.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAHUAAAAAm5mZmZktwHoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:55:54.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SerialDataReceiver.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\SerialDataReceiver.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\SerialDataReceiver.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\SerialDataReceiver.cs",
+              "RelativeToolTip": "DMSS_GUI\\SerialDataReceiver.cs",
+              "ViewState": "AgIAAAoAAADAZ2ZmZmYswA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:54:22.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SensorData.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\Model\\SensorData.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Model\\SensorData.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\Model\\SensorData.cs",
+              "RelativeToolTip": "DMSS_GUI\\Model\\SensorData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:31:21.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DMSS_GUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAACAMzMzMzMnwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:30:07.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\command\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\command\\RelayCommand.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\command\\RelayCommand.cs",
+              "RelativeToolTip": "DMSS_GUI\\command\\RelayCommand.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAWwBQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:28:18.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReceiverModel.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\Model\\ReceiverModel.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Model\\ReceiverModel.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\DMSS_Project\\DMSS_GUI\\DMSS_GUI\\Model\\ReceiverModel.cs",
+              "RelativeToolTip": "DMSS_GUI\\Model\\ReceiverModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:52:24.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

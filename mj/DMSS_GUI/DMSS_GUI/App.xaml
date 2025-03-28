@@ -1,0 +1,12 @@
+﻿<Application x:Class="DMSS_GUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DMSS_GUI" 
+             xmlns:converters="clr-namespace:DMSS_GUI.Converter" 
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <!-- 컨버터 등록 -->
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+    </Application.Resources>
+</Application>
