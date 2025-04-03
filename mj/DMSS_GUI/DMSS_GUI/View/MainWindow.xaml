@@ -27,7 +27,7 @@
                     <ProgressBar Width="70" Height="220" Orientation="Vertical" Maximum="100" 
                                  Value="{Binding ReceiverA.SignalStrength}" Foreground="#1565C0" Background="#E3F2FD"/>
                 </Border>
-                <TextBlock Text="{Binding ReceiverA.SignalStrength, StringFormat={}{0}%}" FontSize="16" FontWeight="Bold" Foreground="#1976D2" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Text="{Binding ReceiverA.SignalStrength, StringFormat={}{0}}" FontSize="16" FontWeight="Bold" Foreground="#1976D2" HorizontalAlignment="Center" Margin="5"/>
             </StackPanel>
         </Border>
 
@@ -55,7 +55,7 @@
                     <ProgressBar Width="70" Height="220" Orientation="Vertical" Maximum="100" 
                                  Value="{Binding ReceiverB.SignalStrength}" Foreground="#D32F2F" Background="#FFEBEE"/>
                 </Border>
-                <TextBlock Text="{Binding ReceiverB.SignalStrength, StringFormat={}{0}%}" FontSize="16" FontWeight="Bold" Foreground="#D32F2F" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Text="{Binding ReceiverB.SignalStrength, StringFormat={}{0}}" FontSize="16" FontWeight="Bold" Foreground="#D32F2F" HorizontalAlignment="Center" Margin="5"/>
             </StackPanel>
         </Border>
 
