@@ -1,0 +1,16 @@
+﻿<Window x:Class="DMSS_GUI.PortSelectionDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMSS_GUI"
+        xmlns:vm="clr-namespace:DMSS_GUI.ViewModel"
+        mc:Ignorable="d"
+        Title="포트 선택" Height="170" Width="300" WindowStartupLocation="CenterOwner">
+
+    <StackPanel Margin="20">
+        <TextBlock Text="사용 가능한 포트를 선택하세요:" Margin="0,0,0,15"/>
+        <ComboBox x:Name="PortComboBox" ItemsSource="{Binding availablePorts}" SelectedItem="{Binding SelectedPort, Mode=TwoWay}"/>
+        <Button Content="연결" Command="{Binding ConfirmCommand}" Margin="0,15,0,0" HorizontalAlignment="Right" Width="80"/>
+    </StackPanel>
+</Window>

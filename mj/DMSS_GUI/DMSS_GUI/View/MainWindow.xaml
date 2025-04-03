@@ -3,14 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DMSS_GUI" xmlns:viewModels="clr-namespace:DMSS_GUI.ViewModel"
+        xmlns:local="clr-namespace:DMSS_GUI" xmlns:vm="clr-namespace:DMSS_GUI.ViewModel"
         mc:Ignorable="d"
         Title="DMSS_System" Height="600" Width="700" Background="#EAEAEA">
-
-    <Window.DataContext>
-        <viewModels:MainViewModel/>
-    </Window.DataContext>
-
 
     <Grid Margin="20">
         <!-- 레이아웃 그리드 -->
@@ -67,7 +62,8 @@
         <!-- Fire Button -->
         <Button Grid.Row="1" Grid.Column="1" Content="Fire" Width="140" Height="140" Background="#D32F2F" Foreground="White" 
                 FontSize="26" FontWeight="Bold" BorderThickness="0" Cursor="Hand"
-                Command="{Binding FireCommand}"/>
+                Command="{Binding FireCommand}"
+                IsEnabled="{Binding IsFire,Converter={StaticResource InverseBooleanConverter}}"/>
 
         <!-- System Status -->
         <Border Grid.Row="1" Grid.Column="0" Background="White" CornerRadius="10" Padding="10" Margin="10" BorderBrush="#B0BEC5" BorderThickness="2">

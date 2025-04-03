@@ -19,15 +19,15 @@ namespace DMSS_GUI
     public partial class MainWindow : Window
     {
         private MainViewModel _viewModel;
-        private SerialDataReceiver _receiver;
+        private SerialCommunication _receiver;
 
         public MainWindow()
         {
             InitializeComponent();
-            _viewModel = new MainViewModel();
+            _viewModel = new MainViewModel(new DialogService());
             DataContext = _viewModel; // ViewModel을 DataContext로 설정
 
-            _receiver = new SerialDataReceiver(_viewModel); //시리얼 연결
+            _receiver = new SerialCommunication(_viewModel); //시리얼 연결
         }
 
         protected override void OnClosed(EventArgs e)
