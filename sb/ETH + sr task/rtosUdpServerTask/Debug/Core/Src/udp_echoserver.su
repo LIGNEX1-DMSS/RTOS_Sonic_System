@@ -1,0 +1,2 @@
+../Core/Src/udp_echoserver.c:43:6:udp_echoserver_init	16	static
+../Core/Src/udp_echoserver.c:95:6:udp_echoserver_receive_callback	32	static
