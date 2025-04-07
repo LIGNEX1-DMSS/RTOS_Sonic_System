@@ -26,10 +26,11 @@ namespace DMSS_GUI.ViewModel
         private int _diff;
         private string _systemStatus;
         private Brush _statusColor;
-        private bool _isManualMode;
-        private bool _targetASelected;
-        private bool _targetBSelected;
+        public enum fMode { Auto, Manual }
+        private fMode _fireMode = fMode.Auto;
+        private string _selectedTarget;
         private bool _isFire;
+        
         public readonly IDialogService _dialogService;
         public SerialCommunication Serial { get; private set; }
 
@@ -73,22 +74,16 @@ namespace DMSS_GUI.ViewModel
             set { _statusColor = value; OnPropertyChanged(nameof(StatusColor)); }
         }
 
-        public bool IsManualMode
+        public fMode FireMode
         {
-            get => _isManualMode;
-            set { _isManualMode = value; OnPropertyChanged(nameof(IsManualMode)); }
+            get => _fireMode;
+            set { _fireMode = value; OnPropertyChanged(nameof(FireMode)); }
         }
 
-        public bool TargetASelected
+        public string SelectedTarget
         {
-            get => _targetASelected;
-            set { _targetASelected = value; OnPropertyChanged(nameof(TargetASelected)); }
-        }
-
-        public bool TargetBSelected
-        {
-            get => _targetBSelected;
-            set { _targetBSelected = value; OnPropertyChanged(nameof(TargetBSelected)); }
+            get => _selectedTarget;
+            set { _selectedTarget = value; OnPropertyChanged(nameof(SelectedTarget)); }
         }
 
         public bool IsFire
@@ -118,7 +113,6 @@ namespace DMSS_GUI.ViewModel
             TryAutoConnect();
 
             FireCommand = new RelayCommand(async (_) => await FireAsync());
-            ModeChangedCommand = new RelayCommand(ChangeMode);
         }
 
         private void TryAutoConnect()
@@ -200,10 +194,6 @@ namespace DMSS_GUI.ViewModel
                 ReceiverAColor = Brushes.LightYellow;
                 ReceiverBColor = Brushes.LightYellow;
             }
-        }
-        private void ChangeMode(object parameter)
-        {
-            IsManualMode = (bool)parameter;
         }
 
         public void AddLog(string message)

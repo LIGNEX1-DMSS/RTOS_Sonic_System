@@ -3,6 +3,7 @@ using System.IO.Ports;
 using System.Text;
 using System.Windows;
 using DMSS_GUI.ViewModel;
+using System.Diagnostics;
 
 namespace DMSS_GUI
 {
@@ -111,7 +112,7 @@ namespace DMSS_GUI
             // 1. 대상 선택 로직
             string target;
 
-            if (_viewModel.IsManualMode)
+            if (_viewModel.FireMode == MainViewModel.fMode.Auto)
             {
                 // 자동 선택 모드: 수신 강도 비교
                 if (_viewModel.Diff > 0)
@@ -124,17 +125,14 @@ namespace DMSS_GUI
             else
             {
                 // 사용자 수동 선택
-                if (_viewModel.TargetASelected)
-                    target = "A";
-                else if (_viewModel.TargetBSelected)
-                    target = "B";
-                else
+                target = _viewModel.SelectedTarget;
+                if (string.IsNullOrEmpty(target))
                 {
-                    _viewModel.AddLog("[TX] 대상이 선택되지 않았습니다.");
+                    _viewModel.AddLog("[TX] 수동 발사 대상이 선택되지 않았습니다.");
                     return false;
                 }
             }
-
+            
             // 2. 명령 생성 및 전송
             string command = $"{target}";
             try

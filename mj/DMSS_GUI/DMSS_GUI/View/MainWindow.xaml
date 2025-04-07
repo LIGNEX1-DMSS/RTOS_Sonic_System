@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DMSS_GUI" xmlns:vm="clr-namespace:DMSS_GUI.ViewModel"
+        xmlns:local="clr-namespace:DMSS_GUI" 
+        xmlns:vm="clr-namespace:DMSS_GUI.ViewModel"
         mc:Ignorable="d"
         Title="DMSS_System" Height="600" Width="700" Background="#EAEAEA">
 
@@ -35,14 +36,26 @@
         <Border Grid.Row="0" Grid.Column="1" Background="White" CornerRadius="10" Padding="10" BorderBrush="#B0BEC5" BorderThickness="2" Margin="0,10,0,0">
             <StackPanel HorizontalAlignment="Center">
                 <TextBlock Text="발사 모드" FontWeight="Bold" FontSize="16" Foreground="#37474F" HorizontalAlignment="Center" Margin="0,0,0,5"/>
-                <RadioButton Content="기본 모드" IsChecked="{Binding IsManualMode, Converter={StaticResource InverseBooleanConverter}}" Foreground="#1976D2"/>
-                <RadioButton Content="사용자 모드" IsChecked="{Binding IsManualMode}" Foreground="#1976D2"/>
+                <RadioButton Content="기본 모드" 
+                             GroupName="FireModeGroup"
+                             IsChecked="{Binding FireMode, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Auto, Mode=TwoWay}" 
+                             Foreground="#1976D2"/>
+                <RadioButton Content="사용자 모드" 
+                             GroupName="FireModeGroup"
+                             IsChecked="{Binding FireMode, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Manual, Mode=TwoWay}" 
+                             Foreground="#1976D2"/>
 
                 <!-- 선택 모드에서만 활성화됨 -->
-                <StackPanel Visibility="{Binding IsManualMode, Converter={StaticResource BooleanToVisibilityConverter}}" Margin="10,5,10,0">
+                <StackPanel Visibility="{Binding FireMode, Converter={StaticResource EnumToVisibilityConverter}, ConverterParameter=Manual}" Margin="10,5,10,0">
                     <TextBlock Text="발사 대상 선택" FontWeight="Bold" FontSize="14" Foreground="#37474F"/>
-                    <RadioButton Content="Receiver A" IsChecked="{Binding TargetASelected}" Foreground="#1976D2"/>
-                    <RadioButton Content="Receiver B" IsChecked="{Binding TargetBSelected}" Foreground="#1976D2"/>
+                    <RadioButton Content="Receiver A" 
+                                 GroupName="TargetGroup"
+                                 IsChecked="{Binding SelectedTarget, Converter={StaticResource StringToBooleanConverter}, ConverterParameter=A}" 
+                                 Foreground="#1976D2"/>
+                    <RadioButton Content="Receiver B" 
+                                 GroupName="TargetGroup"
+                                 IsChecked="{Binding SelectedTarget, Converter={StaticResource StringToBooleanConverter}, ConverterParameter=B}"
+                                 Foreground="#1976D2"/>
                 </StackPanel>
             </StackPanel>
         </Border>

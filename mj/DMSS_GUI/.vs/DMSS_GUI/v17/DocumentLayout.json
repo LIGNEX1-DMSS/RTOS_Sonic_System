@@ -3,22 +3,37 @@
   "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\view\\portselectiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\interface\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\converter\\enumtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\converter\\stringtobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\converter\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\converter\\enumtobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\view\\portselectiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB2D9D46-A8B4-4249-9C1A-367712F9CB87}|DMSS_GUI\\DMSS_GUI.csproj|\\\\mac\\home\\documents\\rtos_sonic_system\\mj\\dmss_gui\\dmss_gui\\model\\receivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -31,28 +46,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PortSelectionDialog.xaml",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\PortSelectionDialog.xaml",
-              "RelativeDocumentMoniker": "DMSS_GUI\\View\\PortSelectionDialog.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\PortSelectionDialog.xaml",
-              "RelativeToolTip": "DMSS_GUI\\View\\PortSelectionDialog.xaml",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\App.xaml",
+              "RelativeDocumentMoniker": "DMSS_GUI\\App.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\App.xaml",
+              "RelativeToolTip": "DMSS_GUI\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T07:07:42.566Z",
+              "WhenOpened": "2025-04-04T05:13:07.076Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnumToVisibilityConverter.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "RelativeToolTip": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAYAwAAAAAowBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:29:21.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "DMSS_GUI\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAH8AAABADjMzMzMhwKMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:32:40.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SerialCommunication.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\SerialCommunication.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs*",
+              "RelativeToolTip": "DMSS_GUI\\SerialCommunication.cs*",
+              "ViewState": "AgIAAIwAAAAAWmZmZmYOwJEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:33:13.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DMSS_GUI\\View\\MainWindow.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
-              "RelativeToolTip": "DMSS_GUI\\View\\MainWindow.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml*",
+              "RelativeToolTip": "DMSS_GUI\\View\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-03T07:05:43.941Z",
               "EditorCaption": ""
@@ -60,55 +115,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "DMSS_GUI\\AssemblyInfo.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\AssemblyInfo.cs",
-              "RelativeToolTip": "DMSS_GUI\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:04:54.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DialogService.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\DialogService.cs",
-              "RelativeDocumentMoniker": "DMSS_GUI\\DialogService.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\DialogService.cs",
-              "RelativeToolTip": "DMSS_GUI\\DialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:04:53.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDialogService.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Interface\\IDialogService.cs",
-              "RelativeDocumentMoniker": "DMSS_GUI\\Interface\\IDialogService.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Interface\\IDialogService.cs",
-              "RelativeToolTip": "DMSS_GUI\\Interface\\IDialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:04:48.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DMSS_GUI\\MainWindow.xaml.cs",
               "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "DMSS_GUI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T07:04:28.392Z"
+              "WhenOpened": "2025-04-03T07:04:28.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "StringToBooleanConverter.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\StringToBooleanConverter.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\StringToBooleanConverter.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\StringToBooleanConverter.cs",
+              "RelativeToolTip": "DMSS_GUI\\Converter\\StringToBooleanConverter.cs",
+              "ViewState": "AgIAAAcAAACQBQAAAAAYwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:08:11.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\command\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\command\\RelayCommand.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\command\\RelayCommand.cs",
+              "RelativeToolTip": "DMSS_GUI\\command\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAA4MzMzMzMrwBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:18:52.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\InverseBooleanConverter.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "DMSS_GUI\\Converter\\InverseBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:14:19.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnumToBooleanConverter.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToBooleanConverter.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\EnumToBooleanConverter.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToBooleanConverter.cs",
+              "RelativeToolTip": "DMSS_GUI\\Converter\\EnumToBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:48:07.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PortSelectionDialog.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\PortSelectionDialog.xaml",
+              "RelativeDocumentMoniker": "DMSS_GUI\\View\\PortSelectionDialog.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\PortSelectionDialog.xaml",
+              "RelativeToolTip": "DMSS_GUI\\View\\PortSelectionDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T07:15:28.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ReceiverModel.cs",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Model\\ReceiverModel.cs",
               "RelativeDocumentMoniker": "DMSS_GUI\\Model\\ReceiverModel.cs",
