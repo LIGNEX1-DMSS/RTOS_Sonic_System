@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -63,15 +63,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnumToVisibilityConverter.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
-              "RelativeToolTip": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAYAwAAAAAowBUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SerialCommunication.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\SerialCommunication.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs",
+              "RelativeToolTip": "DMSS_GUI\\SerialCommunication.cs",
+              "ViewState": "AgIAACoAAAAAOjMzMzMTwCsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T06:29:21.927Z",
+              "WhenOpened": "2025-04-04T03:33:13.616Z",
               "EditorCaption": ""
             },
             {
@@ -89,15 +89,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SerialCommunication.cs",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs",
-              "RelativeDocumentMoniker": "DMSS_GUI\\SerialCommunication.cs",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\SerialCommunication.cs*",
-              "RelativeToolTip": "DMSS_GUI\\SerialCommunication.cs*",
-              "ViewState": "AgIAAIwAAAAAWmZmZmYOwJEAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EnumToVisibilityConverter.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "RelativeToolTip": "DMSS_GUI\\Converter\\EnumToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAYAwAAAAAowBUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T03:33:13.616Z",
+              "WhenOpened": "2025-04-04T06:29:21.927Z",
               "EditorCaption": ""
             },
             {
@@ -106,8 +106,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DMSS_GUI\\View\\MainWindow.xaml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml*",
-              "RelativeToolTip": "DMSS_GUI\\View\\MainWindow.xaml*",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\RTOS_Sonic_System\\mj\\DMSS_GUI\\DMSS_GUI\\View\\MainWindow.xaml",
+              "RelativeToolTip": "DMSS_GUI\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-03T07:05:43.941Z",
               "EditorCaption": ""

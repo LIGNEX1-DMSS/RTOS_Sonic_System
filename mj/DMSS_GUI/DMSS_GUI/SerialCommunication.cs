@@ -34,7 +34,7 @@ namespace DMSS_GUI
             try
             {
                 string line = _serialPort.ReadLine().Trim(); // ex: "A:100,B:90,D:10"
-
+                Debug.WriteLine($"Seiral Receive : {line}");
                 App.Current.Dispatcher.Invoke(() =>
                 {
                     if(line.StartsWith("A:"))
