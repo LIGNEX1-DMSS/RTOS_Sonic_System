@@ -98,13 +98,13 @@ uint8_t cmdIndex = 0;
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-//	HAL_GPIO_TogglePin(GPIOG, LD3_Pin);  // ISR 호출 시 LED 토글
+	HAL_GPIO_TogglePin(GPIOG, LD3_Pin);  // ISR 호출 시 LED 토글
     if (huart->Instance == USART1)
     {
         if (rxByte == '\n')  // 한 줄 끝
         {
             cmdBuffer[cmdIndex] = '\0';  // null terminate
-            printf("Initial Buffer : %s\n", cmdBuffer);
+//            printf("Initial Buffer : %s\n", cmdBuffer);
 
             if (cmdBuffer[0] == 'A')
                 strcpy((char*)ackBuf, "ACK_FIRE:A\r\n");
@@ -120,10 +120,10 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
             HAL_UART_Transmit(&huart1, ackBuf, strlen((char*)ackBuf), HAL_MAX_DELAY);
 
-            printf("Buffer before : %c\n", cmdBuffer[0]);
+//            printf("Buffer before : %c\n", cmdBuffer[0]);
             memset(cmdBuffer, 0, sizeof(cmdBuffer));
 			cmdIndex = 0;
-			printf("Buffer After : %c\n", cmdBuffer[0]);
+//			printf("Buffer After : %c\n", cmdBuffer[0]);
         }
         else
         {
