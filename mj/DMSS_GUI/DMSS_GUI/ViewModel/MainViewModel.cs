@@ -161,7 +161,7 @@ namespace DMSS_GUI.ViewModel
             SystemStatus = "발사 진행 중...";
             StatusColor = Brushes.Orange;
 
-            bool result = await Serial.SendFireCommandAsync(timeoutMilliseconds: 3000); // 발사 프로세스
+            bool result = await Serial.SendFireCommandAsync(timeoutMilliseconds: 5000); // 발사 프로세스
 
             if (result)
             {

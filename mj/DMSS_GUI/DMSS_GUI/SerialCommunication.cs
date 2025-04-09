@@ -99,7 +99,7 @@ namespace DMSS_GUI
         }
 
 
-        public async Task<bool> SendFireCommandAsync(int timeoutMilliseconds = 3000)
+        public async Task<bool> SendFireCommandAsync(int timeoutMilliseconds = 5000)
         {
             if (_serialPort == null || !_serialPort.IsOpen)
             {
