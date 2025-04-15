@@ -1,59 +1,62 @@
-# STM32 Ethernet (RMII) + LwIP + UDP 활성화
+# 음파전 체계 UDP 통신 프로토콜 구축
 
-STM32 + LAN8720 기반 RMII 연결을 통해 Ethernet 통신을 구성하고, LwIP 스택을 이용하여 UDP 데이터를 수신/응답하는 
-
----
-
-## ✅ 주요 특징
-
-- **RMII 모드 이더넷 통신**
-- **LwIP TCP/IP 스택 활용**
-- **UDP 소켓 생성 및 수신 처리**
-- **Mac, Windows에서 송신한 UDP 패킷 정상 수신**
-- **ping 응답 가능**
+- **Board**: Nucleo-F767ZI  
+- **Tool**: STM32CubeIDE  
+- **Protocol**: UDP (Broadcast 기반 통신)
 
 ---
 
-## ⚙️ 설정 요약
+## 🛰 UDP 방식 선택 이유
 
-### 1. RMII vs MII
-
-| 항목 | MII | RMII |
-|------|-----|------|
-| 데이터 라인 수 | 16 | 7 |
-| 클럭 | Tx/Rx 각각 25 MHz | 공유 50 MHz |
-| 속도 | 10/100 Mbps | 10/100 Mbps |
-| 핀 수 | 많음 | 적음 |
-| STM32에서 | 잘 안 씀 | 주로 사용됨 |
-
-> 대부분의 STM32 이더넷 PHY는 **RMII** 모드 지원  
-> 50MHz 클럭 공유로 **하드웨어 설계 간소화**
+| 항목                | 설명                                                                 |
+|---------------------|----------------------------------------------------------------------|
+| 통제소 다수 존재       | 여러 클라이언트가 동시에 데이터를 송신해야 하는 구조                            |
+| 고속 실시간 송신 필요   | TCP의 연결 설정/해제 오버헤드로 인해 실시간 전송에 부적합                          |
+| 데이터의 순간성 중시   | 현재 시점의 데이터만 중요하며, 과거 데이터는 불필요                              |
+| 신뢰성보다 속도 우선    | 재전송, 순서 보장, 체크섬 등이 필요 없기 때문에 UDP가 더 효율적                     |
 
 ---
 
-### 2. CubeMX 설정
+## 🧩 시스템 구성
 
-1. **"Pinout & Configuration" → `ETH` 활성화**
-2. `ETH Mode`를 **"RMII"**로 설정
-3. **Clock Configuration**에서 `ETH` 클럭을 **50 MHz**로 설정
-4. `MCO1` 사용하여 PHY 칩에 클럭 공급
-5. **LwIP 활성화**
-6. **DHCP는 Disable** (공유기에서 자동 할당되므로)
+### 📡 SERVER (STM32)
+
+- 구성: `LwIP + ETH + FreeRTOS + udp_echoserver.c`
+- 기능:
+  - `ping`으로 네트워크 연결 확인
+  - **수신**: 브로드캐스트 수신
+  - **송신**: 수신한 클라이언트 IP 기억 → 해당 IP로 `sync` 신호 전송 (동시 송신)
+
+### 📲 CLIENT (PC)
+
+- 송신 데이터: `"센서값(경과밀리초)"` 형식  
+  예: `58(1325)` → 1.325초 경과 시점에 `58`이라는 값 전송
+- **송신**: 500ms 주기로 센서 데이터를 브로드캐스트
+- **수신**: 서버의 `sync` 수신 시 `miles` 초기화 (0으로)
 
 ---
 
-## 📁 코드 구성
+## ⚙️ STM32CubeIDE 설정
 
-### `main.c` - 기본 구조
+| 항목                   | 설정 값                                      |
+|------------------------|----------------------------------------------|
+| Code Generation Option | 사용                                          |
+| System Timer           | TIM6                                          |
+| Ethernet Interface     | RMII                                          |
+| FreeRTOS 설정           | CMSIS_V1, MINIMAL_STACK_SIZE = 256 words     |
+|                        | TOTAL_HEAP_SIZE = 32768 bytes                |
+| LwIP 설정               | DHCP 비활성화, Static IP 사용                |
+| 클럭 설정               | HSE 사용, HCLK = 168 MHz                     |
 
-```c
-extern struct netif gnetif;
+### ⚠️ 주의 사항
+- `LWIP + ETH + RTOS`를 동시에 활성화 시 컴파일 경고 발생  
+- `MX_LWIP_Init()` 호출 시 **하드폴트 발생**
 
-while (1)
-{
-    MX_LWIP_Process();
-    ethernetif_input(&gnetif);
-    sys_check_timeouts();
+→ 위 설정을 통해 문제 해결
 
-    printf("Current IP Address: %s\n", ipaddr_ntoa(&gnetif.ip_addr));
-}
+---
+
+## 📚 Reference
+
+- [[STM32 HAL] RTOS + LwIP TCP Echo Server (by eziya76)](https://m.blog.naver.com/eziya76/221867311729?recommendTrackingCode=2)
+
