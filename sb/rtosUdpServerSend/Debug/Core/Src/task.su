@@ -1,0 +1,6 @@
+../Core/Src/task.c:62:6:USER_THREADS	16	static
+../Core/Src/task.c:81:6:mainTask	24	static
+../Core/Src/task.c:128:6:syncTask	16	static
+../Core/Src/task.c:144:6:gen1Task	40	static
+../Core/Src/task.c:177:6:gen2Task	40	static
+../Core/Src/task.c:205:6:rxTask	168	static

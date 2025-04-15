@@ -1,0 +1,6 @@
+task.c:62:6:USER_THREADS	1
+task.c:81:6:mainTask	3
+task.c:128:6:syncTask	1
+task.c:144:6:gen1Task	3
+task.c:177:6:gen2Task	3
+task.c:205:6:rxTask	8

@@ -1,0 +1,6 @@
+../Core/Src/udp_echoserver.c:26:6:parse_and_store_data	40	static
+../Core/Src/udp_echoserver.c:53:6:add_client	24	static
+../Core/Src/udp_echoserver.c:67:6:send_sync_to_all_clients	24	static
+../Core/Src/udp_echoserver.c:86:6:udp_echoserver_receive_callback	56	static
+../Core/Src/udp_echoserver.c:108:6:udp_sync_sender_task	16	static
+../Core/Src/udp_echoserver.c:116:6:udp_echoserver_init	48	static
